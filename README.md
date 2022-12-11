@@ -1,6 +1,8 @@
 # 24-channel DAC
-This is a 24-channel DAC with isolated output controlled via Ethernet interface. 
-![]( 24-channel-DAC/photos/photo_2020-09-07_16-47-34.jpg )
+This is hardware project of a 24-channel DAC with isolated output controlled via Ethernet interface. 
+
+<img src="/photos/photo_2020-09-07_16-47-34.jpg" alt="drawing" width="200"/> <img src="/photos/photo_2020-09-07_16-48-04.jpg" alt="drawing" width="200"/> <img src="/photos/photo_2020-09-07_16-48-26.jpg" alt="drawing" width="200"/>
+
 # Specs
 - Number of outputs: 24
 - Resolution: 10 bit
