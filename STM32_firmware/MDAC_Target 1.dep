@@ -1,0 +1,29 @@
+Dependencies for Project 'MDAC', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060422::V5.06 update 4 (build 422)::ARMCC
+F (.\Source\main.c)(0x5EE651BD)()
+F (.\Source\timer.c)(0x597F4F15)()
+F (.\Source\net_interface.c)(0x5EE64DE8)()
+F (.\Source\hardware_init.c)(0x597E68AF)()
+F (.\Source\hardware_init.h)(0x597F4A42)()
+F (.\Source\I2C.c)(0x5915842B)()
+F (.\Source\I2C.h)(0x590B4B4B)()
+F (.\Source\MDAC_conf.h)(0x597BB799)()
+F (.\Source\web_content.c)(0x5EE638CD)()
+F (.\Source\web_content.h)(0x5C13D2E4)()
+F (.\Source\string_functions.c)(0x591A34F0)()
+F (.\Source\string_functions.h)(0x59807A9A)()
+F (.\Source\scpi.c)(0x59BD0E3F)()
+F (.\Source\scpi.h)(0x59BD0E87)()
+F (.\enc28j60\enc28j60.c)(0x5EE65043)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\enc28j60 -I .\uip -I .\uIP_arch -I ..\STM32_firmware -I .\uip-I"C:\Users\Nikolay\Documents\Lab 025\multi channel DAC\STM32_firmware\RTE\_Target_1"-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F030x6-o .\enc28j60.o --omf_browse .\enc28j60.crf --depend .\enc28j60.d)
+I (enc28j60\enc28j60.h)(0x5EE64E96)
+F (.\uip\uip.c)(0x590097DB)()
+F (.\uip\uip_arp.c)(0x5C179660)()
+F (.\uip\uiplib.c)(0x5EE63F53)()
+F (.\MAX582x\MAX582x.h)(0x597F657D)()
+F (.\MAX582x\MAX582x.c)(0x597F65C0)()
+F (.\MAX582x\dac_functions.c)(0x59825B5F)()
+F (.\MAX582x\dac_functions.h)(0x5914963D)()
+F (.\flash\flash.c)(0x595E5EFA)()
+F (.\flash\flash.h)(0x595E5F20)()
+F (.\CRC\crc.c)(0x595CCE82)()
+F (.\crc\crc.h)(0x595CCED4)()

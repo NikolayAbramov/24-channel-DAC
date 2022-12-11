@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Bourns)(type KiCad)(uri C:/Users/Nikolay/Documents/KiCAD_Libs/Bourns.pretty)(options "")(descr ""))
+  (lib (name DC_DC_custom)(type KiCad)(uri C:/Users/Nikolay/Documents/KiCAD_Libs/DC_DC_custom.pretty)(options "")(descr ""))
+)

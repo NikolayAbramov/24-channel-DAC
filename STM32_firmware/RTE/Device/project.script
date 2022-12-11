@@ -1,0 +1,6 @@
+load STM32F030K6 
+project name STCubeGenerated 
+project toolchain "MDK-ARM V5" 
+project path "D:\Projects\Multi_channel_DAC\24ch_DAC\STM32_firmware\RTE\Device\STM32F030K6\" 
+set tpl_path "C:\Users\Nikolay\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\MDK\CubeMX" 
+set dest_path "STM32F030K6" 

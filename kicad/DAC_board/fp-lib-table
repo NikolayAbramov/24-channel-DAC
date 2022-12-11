@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name conn_custom)(type KiCad)(uri C:/Users/Nikolay/Documents/KiCAD_Libs/conn_custom.pretty)(options "")(descr ""))
+  (lib (name dsub)(type KiCad)(uri C:/Users/Nikolay/Documents/KiCAD_Libs/Connector_Dsub.pretty)(options "")(descr ""))
+)

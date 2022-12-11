@@ -1,0 +1,441 @@
+EESchema Schematic File Version 4
+LIBS:DAC_board-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L linear:LM324 U4
+U 1 1 592D9BAB
+P 4900 2450
+AR Path="/592D963A/592D9BAB" Ref="U4"  Part="1" 
+AR Path="/59336044/592D9BAB" Ref="U5"  Part="1" 
+AR Path="/59336FCF/592D9BAB" Ref="U6"  Part="1" 
+AR Path="/59336FD9/592D9BAB" Ref="U7"  Part="1" 
+AR Path="/59338CE4/592D9BAB" Ref="U8"  Part="1" 
+AR Path="/59338CEE/592D9BAB" Ref="U9"  Part="1" 
+F 0 "U4" H 4900 2650 50  0000 L CNN
+F 1 "LM324" H 4900 2250 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4850 2550 50  0001 C CNN
+F 3 "" H 4950 2650 50  0001 C CNN
+	1    4900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 592D9C63
+P 5050 3150
+AR Path="/592D963A/592D9C63" Ref="R4"  Part="1" 
+AR Path="/59336044/592D9C63" Ref="R18"  Part="1" 
+AR Path="/59336FCF/592D9C63" Ref="R30"  Part="1" 
+AR Path="/59336FD9/592D9C63" Ref="R42"  Part="1" 
+AR Path="/59338CE4/592D9C63" Ref="R54"  Part="1" 
+AR Path="/59338CEE/592D9C63" Ref="R66"  Part="1" 
+F 0 "R4" V 5130 3150 50  0000 C CNN
+F 1 "100k" V 5050 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4980 3150 50  0001 C CNN
+F 3 "" H 5050 3150 50  0001 C CNN
+	1    5050 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 592D9D78
+P 4250 3150
+AR Path="/592D963A/592D9D78" Ref="R3"  Part="1" 
+AR Path="/59336044/592D9D78" Ref="R17"  Part="1" 
+AR Path="/59336FCF/592D9D78" Ref="R29"  Part="1" 
+AR Path="/59336FD9/592D9D78" Ref="R41"  Part="1" 
+AR Path="/59338CE4/592D9D78" Ref="R53"  Part="1" 
+AR Path="/59338CEE/592D9D78" Ref="R65"  Part="1" 
+F 0 "R3" V 4330 3150 50  0000 C CNN
+F 1 "100k" V 4250 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4180 3150 50  0001 C CNN
+F 3 "" H 4250 3150 50  0001 C CNN
+	1    4250 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 592D9DBB
+P 4250 2350
+AR Path="/592D963A/592D9DBB" Ref="R1"  Part="1" 
+AR Path="/59336044/592D9DBB" Ref="R15"  Part="1" 
+AR Path="/59336FCF/592D9DBB" Ref="R27"  Part="1" 
+AR Path="/59336FD9/592D9DBB" Ref="R39"  Part="1" 
+AR Path="/59338CE4/592D9DBB" Ref="R51"  Part="1" 
+AR Path="/59338CEE/592D9DBB" Ref="R63"  Part="1" 
+F 0 "R1" H 4330 2350 50  0000 C CNN
+F 1 "100k" V 4250 2350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4180 2350 50  0001 C CNN
+F 3 "" H 4250 2350 50  0001 C CNN
+	1    4250 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 3150 5350 3150
+Wire Wire Line
+	5350 3150 5350 2450
+Wire Wire Line
+	5200 2450 5350 2450
+Wire Wire Line
+	4600 2550 4550 2550
+Wire Wire Line
+	4550 2550 4550 3150
+Wire Wire Line
+	4400 3150 4550 3150
+Connection ~ 4550 3150
+Wire Wire Line
+	4400 2350 4600 2350
+Text GLabel 4800 2000 1    60   Input ~ 0
+V+
+Wire Wire Line
+	4800 2150 4800 2000
+Text GLabel 4800 2850 3    60   Input ~ 0
+V-
+Wire Wire Line
+	4800 2750 4800 2850
+Text HLabel 5500 2450 2    60   Input ~ 0
+OUT1
+Connection ~ 5350 2450
+Text HLabel 3950 2350 0    60   Input ~ 0
+IN1
+Wire Wire Line
+	4100 2350 3950 2350
+$Comp
+L linear:LM324 U4
+U 3 1 5932EF4C
+P 4900 4100
+AR Path="/592D963A/5932EF4C" Ref="U4"  Part="3" 
+AR Path="/59336044/5932EF4C" Ref="U5"  Part="3" 
+AR Path="/59336FCF/5932EF4C" Ref="U6"  Part="3" 
+AR Path="/59336FD9/5932EF4C" Ref="U7"  Part="3" 
+AR Path="/59338CE4/5932EF4C" Ref="U8"  Part="3" 
+AR Path="/59338CEE/5932EF4C" Ref="U9"  Part="3" 
+F 0 "U4" H 4900 4300 50  0000 L CNN
+F 1 "LM324" H 4900 3900 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4850 4200 50  0001 C CNN
+F 3 "" H 4950 4300 50  0001 C CNN
+	3    4900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5932EF52
+P 5050 4800
+AR Path="/592D963A/5932EF52" Ref="R10"  Part="1" 
+AR Path="/59336044/5932EF52" Ref="R24"  Part="1" 
+AR Path="/59336FCF/5932EF52" Ref="R36"  Part="1" 
+AR Path="/59336FD9/5932EF52" Ref="R48"  Part="1" 
+AR Path="/59338CE4/5932EF52" Ref="R60"  Part="1" 
+AR Path="/59338CEE/5932EF52" Ref="R72"  Part="1" 
+F 0 "R10" V 5130 4800 50  0000 C CNN
+F 1 "100k" V 5050 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4980 4800 50  0001 C CNN
+F 3 "" H 5050 4800 50  0001 C CNN
+	1    5050 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5932EF58
+P 4250 4800
+AR Path="/592D963A/5932EF58" Ref="R9"  Part="1" 
+AR Path="/59336044/5932EF58" Ref="R23"  Part="1" 
+AR Path="/59336FCF/5932EF58" Ref="R35"  Part="1" 
+AR Path="/59336FD9/5932EF58" Ref="R47"  Part="1" 
+AR Path="/59338CE4/5932EF58" Ref="R59"  Part="1" 
+AR Path="/59338CEE/5932EF58" Ref="R71"  Part="1" 
+F 0 "R9" V 4330 4800 50  0000 C CNN
+F 1 "100k" V 4250 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4180 4800 50  0001 C CNN
+F 3 "" H 4250 4800 50  0001 C CNN
+	1    4250 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5932EF5E
+P 4250 4000
+AR Path="/592D963A/5932EF5E" Ref="R7"  Part="1" 
+AR Path="/59336044/5932EF5E" Ref="R21"  Part="1" 
+AR Path="/59336FCF/5932EF5E" Ref="R33"  Part="1" 
+AR Path="/59336FD9/5932EF5E" Ref="R45"  Part="1" 
+AR Path="/59338CE4/5932EF5E" Ref="R57"  Part="1" 
+AR Path="/59338CEE/5932EF5E" Ref="R69"  Part="1" 
+F 0 "R7" V 4330 4000 50  0000 C CNN
+F 1 "100k" V 4250 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4180 4000 50  0001 C CNN
+F 3 "" H 4250 4000 50  0001 C CNN
+	1    4250 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 4800 5350 4800
+Wire Wire Line
+	5350 4800 5350 4100
+Wire Wire Line
+	5200 4100 5350 4100
+Wire Wire Line
+	4600 4200 4550 4200
+Wire Wire Line
+	4550 4200 4550 4800
+Wire Wire Line
+	4400 4800 4550 4800
+Connection ~ 4550 4800
+Wire Wire Line
+	4400 4000 4600 4000
+Text GLabel 4800 3650 1    60   Input ~ 0
+V+
+Wire Wire Line
+	4800 3800 4800 3650
+Text GLabel 4800 4500 3    60   Input ~ 0
+V-
+Wire Wire Line
+	4800 4400 4800 4500
+Text HLabel 5500 4100 2    60   Input ~ 0
+OUT3
+Connection ~ 5350 4100
+Text HLabel 3950 4000 0    60   Input ~ 0
+IN3
+Wire Wire Line
+	4100 4000 3950 4000
+$Comp
+L linear:LM324 U4
+U 2 1 59330DEF
+P 7500 2450
+AR Path="/592D963A/59330DEF" Ref="U4"  Part="2" 
+AR Path="/59336044/59330DEF" Ref="U5"  Part="2" 
+AR Path="/59336FCF/59330DEF" Ref="U6"  Part="2" 
+AR Path="/59336FD9/59330DEF" Ref="U7"  Part="2" 
+AR Path="/59338CE4/59330DEF" Ref="U8"  Part="2" 
+AR Path="/59338CEE/59330DEF" Ref="U9"  Part="2" 
+F 0 "U4" H 7500 2650 50  0000 L CNN
+F 1 "LM324" H 7500 2250 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7450 2550 50  0001 C CNN
+F 3 "" H 7550 2650 50  0001 C CNN
+	2    7500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 59330DF5
+P 7650 3150
+AR Path="/592D963A/59330DF5" Ref="R6"  Part="1" 
+AR Path="/59336044/59330DF5" Ref="R20"  Part="1" 
+AR Path="/59336FCF/59330DF5" Ref="R32"  Part="1" 
+AR Path="/59336FD9/59330DF5" Ref="R44"  Part="1" 
+AR Path="/59338CE4/59330DF5" Ref="R56"  Part="1" 
+AR Path="/59338CEE/59330DF5" Ref="R68"  Part="1" 
+F 0 "R6" V 7730 3150 50  0000 C CNN
+F 1 "100k" V 7650 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7580 3150 50  0001 C CNN
+F 3 "" H 7650 3150 50  0001 C CNN
+	1    7650 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 59330DFB
+P 6850 3150
+AR Path="/592D963A/59330DFB" Ref="R5"  Part="1" 
+AR Path="/59336044/59330DFB" Ref="R19"  Part="1" 
+AR Path="/59336FCF/59330DFB" Ref="R31"  Part="1" 
+AR Path="/59336FD9/59330DFB" Ref="R43"  Part="1" 
+AR Path="/59338CE4/59330DFB" Ref="R55"  Part="1" 
+AR Path="/59338CEE/59330DFB" Ref="R67"  Part="1" 
+F 0 "R5" V 6930 3150 50  0000 C CNN
+F 1 "100k" V 6850 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6780 3150 50  0001 C CNN
+F 3 "" H 6850 3150 50  0001 C CNN
+	1    6850 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 59330E01
+P 6850 2350
+AR Path="/592D963A/59330E01" Ref="R2"  Part="1" 
+AR Path="/59336044/59330E01" Ref="R16"  Part="1" 
+AR Path="/59336FCF/59330E01" Ref="R28"  Part="1" 
+AR Path="/59336FD9/59330E01" Ref="R40"  Part="1" 
+AR Path="/59338CE4/59330E01" Ref="R52"  Part="1" 
+AR Path="/59338CEE/59330E01" Ref="R64"  Part="1" 
+F 0 "R2" V 6930 2350 50  0000 C CNN
+F 1 "100k" V 6850 2350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6780 2350 50  0001 C CNN
+F 3 "" H 6850 2350 50  0001 C CNN
+	1    6850 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 3150 7950 3150
+Wire Wire Line
+	7950 3150 7950 2450
+Wire Wire Line
+	7800 2450 7950 2450
+Wire Wire Line
+	7200 2550 7150 2550
+Wire Wire Line
+	7150 2550 7150 3150
+Wire Wire Line
+	7000 3150 7150 3150
+Connection ~ 7150 3150
+Wire Wire Line
+	7000 2350 7200 2350
+Text GLabel 7400 2000 1    60   Input ~ 0
+V+
+Wire Wire Line
+	7400 2150 7400 2000
+Text GLabel 7400 2850 3    60   Input ~ 0
+V-
+Wire Wire Line
+	7400 2750 7400 2850
+Text HLabel 8100 2450 2    60   Input ~ 0
+OUT2
+Connection ~ 7950 2450
+Text HLabel 6550 2350 0    60   Input ~ 0
+IN2
+Wire Wire Line
+	6700 2350 6550 2350
+$Comp
+L linear:LM324 U4
+U 4 1 59330E19
+P 7500 4100
+AR Path="/592D963A/59330E19" Ref="U4"  Part="4" 
+AR Path="/59336044/59330E19" Ref="U5"  Part="4" 
+AR Path="/59336FCF/59330E19" Ref="U6"  Part="4" 
+AR Path="/59336FD9/59330E19" Ref="U7"  Part="4" 
+AR Path="/59338CE4/59330E19" Ref="U8"  Part="4" 
+AR Path="/59338CEE/59330E19" Ref="U9"  Part="4" 
+F 0 "U4" H 7500 4300 50  0000 L CNN
+F 1 "LM324" H 7500 3900 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7450 4200 50  0001 C CNN
+F 3 "" H 7550 4300 50  0001 C CNN
+	4    7500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 59330E1F
+P 7650 4800
+AR Path="/592D963A/59330E1F" Ref="R12"  Part="1" 
+AR Path="/59336044/59330E1F" Ref="R26"  Part="1" 
+AR Path="/59336FCF/59330E1F" Ref="R38"  Part="1" 
+AR Path="/59336FD9/59330E1F" Ref="R50"  Part="1" 
+AR Path="/59338CE4/59330E1F" Ref="R62"  Part="1" 
+AR Path="/59338CEE/59330E1F" Ref="R74"  Part="1" 
+F 0 "R12" V 7730 4800 50  0000 C CNN
+F 1 "100k" V 7650 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7580 4800 50  0001 C CNN
+F 3 "" H 7650 4800 50  0001 C CNN
+	1    7650 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 59330E25
+P 6850 4800
+AR Path="/592D963A/59330E25" Ref="R11"  Part="1" 
+AR Path="/59336044/59330E25" Ref="R25"  Part="1" 
+AR Path="/59336FCF/59330E25" Ref="R37"  Part="1" 
+AR Path="/59336FD9/59330E25" Ref="R49"  Part="1" 
+AR Path="/59338CE4/59330E25" Ref="R61"  Part="1" 
+AR Path="/59338CEE/59330E25" Ref="R73"  Part="1" 
+F 0 "R11" V 6930 4800 50  0000 C CNN
+F 1 "100k" V 6850 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6780 4800 50  0001 C CNN
+F 3 "" H 6850 4800 50  0001 C CNN
+	1    6850 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 59330E2B
+P 6850 4000
+AR Path="/592D963A/59330E2B" Ref="R8"  Part="1" 
+AR Path="/59336044/59330E2B" Ref="R22"  Part="1" 
+AR Path="/59336FCF/59330E2B" Ref="R34"  Part="1" 
+AR Path="/59336FD9/59330E2B" Ref="R46"  Part="1" 
+AR Path="/59338CE4/59330E2B" Ref="R58"  Part="1" 
+AR Path="/59338CEE/59330E2B" Ref="R70"  Part="1" 
+F 0 "R8" V 6930 4000 50  0000 C CNN
+F 1 "100k" V 6850 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6780 4000 50  0001 C CNN
+F 3 "" H 6850 4000 50  0001 C CNN
+	1    6850 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 4800 7950 4800
+Wire Wire Line
+	7950 4800 7950 4100
+Wire Wire Line
+	7800 4100 7950 4100
+Wire Wire Line
+	7200 4200 7150 4200
+Wire Wire Line
+	7150 4200 7150 4800
+Wire Wire Line
+	7000 4800 7150 4800
+Connection ~ 7150 4800
+Wire Wire Line
+	7000 4000 7200 4000
+Text GLabel 7400 3650 1    60   Input ~ 0
+V+
+Wire Wire Line
+	7400 3800 7400 3650
+Text GLabel 7400 4500 3    60   Input ~ 0
+V-
+Wire Wire Line
+	7400 4400 7400 4500
+Text HLabel 8100 4100 2    60   Input ~ 0
+OUT4
+Connection ~ 7950 4100
+Text HLabel 6550 4000 0    60   Input ~ 0
+IN4
+Wire Wire Line
+	6700 4000 6550 4000
+Text GLabel 4000 3150 0    60   Input ~ 0
+REF_BUF
+Wire Wire Line
+	4100 3150 4000 3150
+Text GLabel 6600 3150 0    60   Input ~ 0
+REF_BUF
+Text GLabel 6600 4800 0    60   Input ~ 0
+REF_BUF
+Text GLabel 4000 4800 0    60   Input ~ 0
+REF_BUF
+Wire Wire Line
+	6700 3150 6600 3150
+Wire Wire Line
+	6700 4800 6600 4800
+Wire Wire Line
+	4100 4800 4000 4800
+Wire Wire Line
+	4550 3150 4900 3150
+Wire Wire Line
+	5350 2450 5500 2450
+Wire Wire Line
+	4550 4800 4900 4800
+Wire Wire Line
+	5350 4100 5500 4100
+Wire Wire Line
+	7150 3150 7500 3150
+Wire Wire Line
+	7950 2450 8100 2450
+Wire Wire Line
+	7150 4800 7500 4800
+Wire Wire Line
+	7950 4100 8100 4100
+$EndSCHEMATC
